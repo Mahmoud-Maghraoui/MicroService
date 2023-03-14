@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj": {}
+    "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj": {
+    "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj",
-        "projectName": "PlateformService",
-        "projectPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj",
+        "projectUniqueName": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\CommandsService\\CommandsService.csproj",
+        "projectName": "CommandsService",
+        "projectPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\obj\\",
+        "outputPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,37 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[1.15.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [

@@ -3801,11 +3801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahmo\\Desktop\\Projects\\PlateformService\\PlateformService\\PlateformService.csproj",
+      "projectUniqueName": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj",
       "projectName": "PlateformService",
-      "projectPath": "C:\\Users\\mahmo\\Desktop\\Projects\\PlateformService\\PlateformService\\PlateformService.csproj",
+      "projectPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\PlateformService.csproj",
       "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahmo\\Desktop\\Projects\\PlateformService\\PlateformService\\obj\\",
+      "outputPath": "C:\\Users\\mahmo\\Desktop\\Projects\\Inov\\PlateformService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",

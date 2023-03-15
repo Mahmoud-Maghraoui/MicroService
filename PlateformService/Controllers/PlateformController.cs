@@ -3,6 +3,7 @@ using PlateformService.Data;
 using PlateformService.Dtos;
 using PlateformService.Models;
 using Microsoft.AspNetCore.Mvc;
+using PlateformService.SyncDataServices.Http;
 
 namespace PlateformService.Controllers
 {
@@ -12,11 +13,16 @@ namespace PlateformService.Controllers
     {
         private readonly IPlateformRepo _repository;
         private readonly IMapper _mapper;
+        private readonly ICommandDataClient _commandDataClient;
 
-        public PlateformController(IPlateformRepo plateformRepo, IMapper mapper)
+        public PlateformController(
+            IPlateformRepo plateformRepo,
+            IMapper mapper,
+            ICommandDataClient commandDataClient)
         {
             _repository = plateformRepo;
             _mapper = mapper;
+            _commandDataClient = commandDataClient;
         }
 
         [HttpGet("{id}", Name = "GetPlateformById")]
@@ -32,12 +38,25 @@ namespace PlateformService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PlateformReadDto> CreatePlatefrom(PlateformCreateDto plateformCreateDto)
+        public async Task<ActionResult<PlateformReadDto>> CreatePlatefrom(PlateformCreateDto plateformCreateDto)
         {
             Plateform plateform = _mapper.Map<Plateform>(plateformCreateDto);
             _repository.CreatePlateform(plateform);
             _repository.SaveChanges();
             PlateformReadDto plateformReadDto = _mapper.Map<PlateformReadDto>(plateform);
+
+            try
+            {
+                Console.WriteLine("CreatePlatefrom");
+
+                await _commandDataClient.SendPlateformToCommand(plateformReadDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("From plateformController: ", ex);
+            }
+
+
             return CreatedAtRoute(nameof(GetPlateformById), new { Id = plateformReadDto.Id }, plateformReadDto);
         }
     }

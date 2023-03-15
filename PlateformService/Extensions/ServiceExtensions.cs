@@ -1,6 +1,7 @@
 ﻿using PlateformService.Data;
 using PlateformService.Models;
 using Microsoft.EntityFrameworkCore;
+using PlateformService.SyncDataServices.Http;
 
 namespace PlateformService.Extensions
 {
@@ -19,6 +20,7 @@ namespace PlateformService.Extensions
         public static void ConfigureDependecyInjection(this IServiceCollection services)
         {
             services.AddScoped<IPlateformRepo, PlateformRepo>();
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
         }
 
         public static void SeedData(this IServiceCollection services, IApplicationBuilder app)

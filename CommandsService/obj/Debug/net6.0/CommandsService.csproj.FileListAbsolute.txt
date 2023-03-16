@@ -43,6 +43,11 @@ C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\CommandsSe
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\CommandsService.csproj.CoreCompileInputs.cache
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\CommandsService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\CommandsService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.CommandsService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.build.CommandsService.props
+C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CommandsService.props
+C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CommandsService.props
+C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\mahmo\Desktop\Projects\Inov\CommandsService\obj\Debug\net6.0\scopedcss\bundle\CommandsService.styles.css

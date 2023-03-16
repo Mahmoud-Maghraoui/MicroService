@@ -85,6 +85,7 @@ C:\Users\mahmo\Desktop\Projects\PlateformService\PlateformService\obj\Debug\net6
 C:\Users\mahmo\Desktop\Projects\PlateformService\PlateformService\obj\Debug\net6.0\ref\PlateformService.dll
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\appsettings.json
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\PlateformService.exe
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\PlateformService.deps.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\bin\Debug\net6.0\PlateformService.runtimeconfig.json
@@ -159,6 +160,11 @@ C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\Plateform
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\PlateformService.csproj.CoreCompileInputs.cache
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\PlateformService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\PlateformService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets\msbuild.PlateformService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets\msbuild.build.PlateformService.props
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PlateformService.props
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PlateformService.props
+C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\mahmo\Desktop\Projects\Inov\PlateformService\obj\Debug\net6.0\scopedcss\bundle\PlateformService.styles.css

@@ -1,4 +1,6 @@
-﻿using PlateformService.Dtos;
+﻿using Microsoft.Extensions.Configuration;
+using PlateformService.Dtos;
+using PlateformService.Models;
 using System.Text;
 using System.Text.Json;
 
@@ -7,10 +9,12 @@ namespace PlateformService.SyncDataServices.Http
     public class HttpCommandDataClient : ICommandDataClient
     {
         private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public HttpCommandDataClient(HttpClient httpClient)
+        public HttpCommandDataClient(HttpClient httpClient, IConfiguration configuration)
         {
             _httpClient = httpClient;
+            _configuration = configuration;
         }
 
         public async Task SendPlateformToCommand(PlateformReadDto plateformReadDto)
@@ -21,11 +25,11 @@ namespace PlateformService.SyncDataServices.Http
                 Encoding.UTF8,
                 "application/json"
                 );
-
-            var response = await _httpClient.PostAsync("http://localhost:6000/api/c/plateform", httpContent);
+            var response = await _httpClient.PostAsync($"{_configuration["CommandService"]}/plateform", httpContent);
+            Console.WriteLine($"post Async {_configuration["CommandService"]}");
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine("Okay from HttpCommandDataClient");
+                Console.WriteLine($"Okay from HttpCommandDataClient { _configuration["CommandService"]}");
             }
             else
             {
